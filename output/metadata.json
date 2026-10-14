@@ -1,0 +1,147 @@
+{
+  "python": "3.14.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "seed_data": [
+    101,
+    202,
+    303
+  ],
+  "seed_aco": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "ukuran": [
+    5,
+    10,
+    20,
+    50
+  ],
+  "konfigurasi": {
+    "5": {
+      "dasar": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5,
+        "q": 1.0
+      }
+    },
+    "10": {
+      "dasar": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5,
+        "q": 1.0
+      }
+    },
+    "20": {
+      "dasar": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5,
+        "q": 1.0
+      },
+      "alpha_0.5": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 0.5,
+        "beta": 2.0,
+        "rho": 0.5,
+        "q": 1.0
+      },
+      "alpha_2": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 2,
+        "beta": 2.0,
+        "rho": 0.5,
+        "q": 1.0
+      },
+      "beta_1": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 1.0,
+        "beta": 1,
+        "rho": 0.5,
+        "q": 1.0
+      },
+      "beta_5": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 1.0,
+        "beta": 5,
+        "rho": 0.5,
+        "q": 1.0
+      },
+      "rho_0.1": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.1,
+        "q": 1.0
+      },
+      "rho_0.9": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.9,
+        "q": 1.0
+      },
+      "anggaran_10x200": {
+        "jumlah_semut": 10,
+        "jumlah_iterasi": 200,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5,
+        "q": 1.0
+      },
+      "anggaran_40x50": {
+        "jumlah_semut": 40,
+        "jumlah_iterasi": 50,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5,
+        "q": 1.0
+      }
+    },
+    "50": {
+      "dasar": {
+        "jumlah_semut": 20,
+        "jumlah_iterasi": 100,
+        "alpha": 1.0,
+        "beta": 2.0,
+        "rho": 0.5,
+        "q": 1.0
+      }
+    }
+  },
+  "cepat": false,
+  "runs_aco": 720,
+  "baris_csv": 759,
+  "durasi_total_s": 92.90745629998855
+}

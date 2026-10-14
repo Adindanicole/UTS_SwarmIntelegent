@@ -1,0 +1,43 @@
+{
+  "lokasi": [
+    [
+      "Toko",
+      0,
+      0
+    ],
+    [
+      "Pelanggan A",
+      2,
+      3
+    ],
+    [
+      "Pelanggan B",
+      5,
+      1
+    ],
+    [
+      "Pelanggan C",
+      6,
+      5
+    ],
+    [
+      "Pelanggan D",
+      1,
+      6
+    ],
+    [
+      "Pelanggan E",
+      8,
+      3
+    ]
+  ],
+  "parameter_aco": {
+    "jumlah_semut": 20,
+    "jumlah_iterasi": 100,
+    "alpha": 1.0,
+    "beta": 2.0,
+    "rho": 0.5,
+    "q": 1.0,
+    "seed": 42
+  }
+}

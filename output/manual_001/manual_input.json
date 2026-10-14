@@ -1,0 +1,48 @@
+{
+  "lokasi": [
+    [
+      "jalanin aja dulu",
+      3.0,
+      1.0
+    ],
+    [
+      "nicole",
+      5.0,
+      1.0
+    ],
+    [
+      "raj",
+      9.0,
+      1.0
+    ],
+    [
+      "nick",
+      3.0,
+      4.0
+    ],
+    [
+      "niki",
+      6.0,
+      4.0
+    ],
+    [
+      "franky",
+      2.0,
+      2.0
+    ],
+    [
+      "test",
+      3.0,
+      1.0
+    ]
+  ],
+  "parameter_aco": {
+    "jumlah_semut": 15,
+    "jumlah_iterasi": 20,
+    "alpha": 1.0,
+    "beta": 1.0,
+    "rho": 0.1,
+    "q": 1.0,
+    "seed": 30
+  }
+}

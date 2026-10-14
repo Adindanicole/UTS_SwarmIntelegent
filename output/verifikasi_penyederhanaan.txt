@@ -1,0 +1,27 @@
+Verifikasi penyederhanaan - 14 Oktober 2026
+Python: 3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]
+
+test_data_dan_rancangan_lama_tetap_sama (test_proyek.TestAlgoritma.test_data_dan_rancangan_lama_tetap_sama) ... ok
+test_demo_optimum_dan_reproduksi (test_proyek.TestAlgoritma.test_demo_optimum_dan_reproduksi) ... ok
+test_deposit_seluruh_semut_simetris_evaporasi (test_proyek.TestAlgoritma.test_deposit_seluruh_semut_simetris_evaporasi) ... ok
+test_dua_opt_valid_tidak_memburuk_dan_lokal (test_proyek.TestAlgoritma.test_dua_opt_valid_tidak_memburuk_dan_lokal) ... ok
+test_import_tanpa_eksekusi (test_proyek.TestAlgoritma.test_import_tanpa_eksekusi) ... ok
+test_nol_dan_parameter_invalid (test_proyek.TestAlgoritma.test_nol_dan_parameter_invalid) ... ok
+test_seluruh_rute_semut_valid (test_proyek.TestAlgoritma.test_seluruh_rute_semut_valid) ... ok
+test_hasil_utama_lengkap (test_proyek.TestArtefak.test_hasil_utama_lengkap) ... ok
+test_cli_cepat_csv_grafik_dan_kecocokan_hasil_lama (test_proyek.TestInputDanProgram.test_cli_cepat_csv_grafik_dan_kecocokan_hasil_lama) ... ok
+test_lokasi_salah_diulang (test_proyek.TestInputDanProgram.test_lokasi_salah_diulang) ... ok
+test_manual_parameter_kustom_depot_bebas_jarak_nol_satu_iterasi (test_proyek.TestInputDanProgram.test_manual_parameter_kustom_depot_bebas_jarak_nol_satu_iterasi) ... ok
+test_menu_demo_manual_dan_keluar (test_proyek.TestInputDanProgram.test_menu_demo_manual_dan_keluar) ... ok
+test_parameter_salah_diulang_dan_default (test_proyek.TestInputDanProgram.test_parameter_salah_diulang_dan_default) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 15.225s
+
+OK
+
+Pemeriksaan tambahan:
+- AST fungsi algoritma/eksperimen identik dengan versi sebelum konsolidasi (selain import antarfile).
+- Semua 24 file hasil utama lama memiliki SHA-256 identik sebelum/sesudah perubahan.
+- Sintaks main.py dan test_proyek.py valid.
+- Contoh manual lima pelanggan dengan parameter default berhasil, optimum 23.399846 km.
